@@ -1,5 +1,9 @@
 # Levels for logging
 
+[![GoDoc](https://godoc.org/github.com/baijum/logger?status.svg)](https://godoc.org/github.com/baijum/logger)
+[![Go Report Card](https://goreportcard.com/badge/github.com/baijum/logger)](https://goreportcard.com/report/github.com/baijum/logger)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 To get package:
 
 	go get github.com/baijum/logger
