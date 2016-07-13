@@ -4,7 +4,14 @@ To get package:
 
 	go get github.com/baijum/logger
 
-Usage:
+Environment variable "LOG_LEVEL" set the log level.  These are the
+possible values: DEBUG, INFO, WARNING, and ERROR
+
+Log level can be set from the code like this:
+
+	logger.SetLevel(logger.WARNING)
+
+To log a message, compare the current level with available levels:
 
 	if logger.Level <= logger.INFO {
 		log.Printf("Some log message")
